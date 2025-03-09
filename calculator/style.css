@@ -53,10 +53,11 @@ button{
 }
 
 .displaybox{
-    height: 70px;
+    height: 80px;
+    width: 200px;
     padding: 10px;
     margin: 10px;
-    width: 100%;
+    word-break: break-all;
     /* background-color: var(--display-col); */
     background: transparent;
     border-radius: 10px;
@@ -67,6 +68,7 @@ button{
     font-size: 30px;
     border: 2px solid black;
     text-align: left;
+    overflow: ;
 }
 
 .operator{
